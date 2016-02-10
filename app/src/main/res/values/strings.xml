@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">My Application2</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="segundo_texto_main">Traslación</string>
+    <string name="my_main_header_label_text">Animación interpolada con traslación a la derecha</string>
+    <string name="my_main_overshot_text">Overshot</string>
+    <string name="my_main_rotation_text">Esta es una rotación</string>
+    <string name="my_anim_texto_dilatacion">Dilatación</string>
+    <string name="my_anim_texto_alfa">Esto tiene alfa</string>
+</resources>

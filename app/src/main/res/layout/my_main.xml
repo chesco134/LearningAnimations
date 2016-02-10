@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/my_main_header_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:layout_marginStart="20sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginEnd="20sp"
+        android:layout_marginRight="20sp"
+        android:textStyle="bold"
+        android:text="@string/my_main_header_label_text"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/my_main_texto_animacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/my_main_header_label"
+        android:layout_marginTop="12sp"
+        android:layout_marginStart="20sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginEnd="20sp"
+        android:layout_marginRight="20sp"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textColor="@color/tutska"
+        android:text="@string/segundo_texto_main"/>
+
+    <TextView
+        android:id="@+id/my_main_overshot_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:text="@string/my_main_overshot_text"/>
+
+    <TextView
+        android:id="@+id/my_main_rotacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginBottom="20sp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:text="@string/my_main_rotation_text"/>
+
+    <TextView
+        android:id="@+id/my_main_dilatacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="20sp"
+        android:layout_marginEnd="20sp"
+        android:layout_marginRight="20sp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:text="@string/my_anim_texto_dilatacion"/>
+
+    <TextView
+        android:id="@+id/my_main_alfa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/my_main_texto_animacion"
+        android:layout_marginTop="20sp"
+        android:layout_marginEnd="20sp"
+        android:layout_marginRight="20sp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:text="@string/my_anim_texto_alfa"/>
+
+</RelativeLayout>
